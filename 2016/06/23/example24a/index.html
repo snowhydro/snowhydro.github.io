@@ -6,15 +6,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <title>Snowhydro</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
+  <meta name="description" content="积雪模型构建文档积雪质量平衡各相质量平衡θi + θv + θl = 1
+在一维尺度上,$$\frac{\partial\rho_{t}}{\partial t}=\frac{\partial\rho_{v}}{\partial t}-\frac{\partial\rho_{l}}{\partial t}$$
+针对雪层中的每一相，质量平衡方程可以写为，
+对于冰：$$\frac{\partial\r">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Snowhydro">
-<meta property="og:url" content="http://info.coldregion.com/index.html">
+<meta property="og:url" content="http://info.coldregion.com/2016/06/23/example24a/index.html">
 <meta property="og:site_name" content="Snowhydro">
-<meta property="og:description">
+<meta property="og:description" content="积雪模型构建文档积雪质量平衡各相质量平衡θi + θv + θl = 1
+在一维尺度上,$$\frac{\partial\rho_{t}}{\partial t}=\frac{\partial\rho_{v}}{\partial t}-\frac{\partial\rho_{l}}{\partial t}$$
+针对雪层中的每一相，质量平衡方程可以写为，
+对于冰：$$\frac{\partial\r">
+<meta property="og:updated_time" content="2016-06-24T02:33:07.841Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Snowhydro">
-<meta name="twitter:description">
+<meta name="twitter:description" content="积雪模型构建文档积雪质量平衡各相质量平衡θi + θv + θl = 1
+在一维尺度上,$$\frac{\partial\rho_{t}}{\partial t}=\frac{\partial\rho_{v}}{\partial t}-\frac{\partial\rho_{l}}{\partial t}$$
+针对雪层中的每一相，质量平衡方程可以写为，
+对于冰：$$\frac{\partial\r">
   
     <link rel="alternative" href="/atom.xml" title="Snowhydro" type="application/atom+xml">
   
@@ -162,9 +172,7 @@
 	</div>
 </nav>
 
-      <div class="body-wrap">
-  
-    <article id="post-example24a" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-example24a" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2016/06/23/example24a/" class="article-date">
@@ -197,173 +205,68 @@
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/06/08/积雪水文课程-第四讲/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">第四讲 积雪状态变量及其观测</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
   
 </article>
 
 
-
-
-
-
-
-
-
-  
-    <article id="post-积雪水文课程-第四讲" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/08/积雪水文课程-第四讲/" class="article-date">
-  	<time datetime="2016-06-08T00:48:39.968Z" itemprop="datePublished">2016-06-08</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/08/积雪水文课程-第四讲/">第四讲 积雪状态变量及其观测</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <ul>
-<li>时间： 2016-6-22</li>
-<li>课程目标： 了解积雪水当量、粒径、反照率、粗糙度、导热系数、热焓等积雪状态量和物理参数，熟悉各变量的观测方法和数学表达</li>
-<li>课前准备： 预习相关文献，例如《principle of snow hydrology》一书中积雪相关部分；复习前几节课程python与fortran相关知识</li>
-</ul>
-<blockquote>
-<h2 id="课程安排"><a href="#课程安排" class="headerlink" title="课程安排"></a>课程安排</h2><ul>
-<li>第一讲 程序语言及相关工具简单介绍  (closed)</li>
-<li>第二讲 python与fortran混合编程   (closed)</li>
-<li>第三讲 积雪水文基本过程概述       (closed)</li>
-<li>第四讲 积雪状态变量及其观测       (upcoming, 2016-6-22)</li>
-<li>第五讲 热传导、热辐射与相变</li>
-<li>第六讲 积雪质能平衡</li>
-<li>第七讲 降雪、植被截留以及风吹雪重分布</li>
-<li>第八讲 融雪的坡面产流与河道汇流</li>
-<li>第九讲 使用寒区分布式水文模型模拟融雪径流</li>
-<li>第十讲 结合多源数据的融雪模拟：参数优化与数据同化</li>
-</ul>
-</blockquote>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/课程/">课程</a></li></ul>
+<div class="share_jia">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">Share to: &nbsp; </span>
+		<a class="jiathis_button_facebook"></a> 
+    <a class="jiathis_button_twitter"></a>
+    <a class="jiathis_button_plus"></a> 
+    <a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
 	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
 
 
 
 
 
 
-
-
-
-  
-    <article id="post-积雪水文课程" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/07/积雪水文课程/" class="article-date">
-  	<time datetime="2016-06-07T02:34:05.807Z" itemprop="datePublished">2016-06-07</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/07/积雪水文课程/">积雪水文课程</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>积雪水文课程主要面向涉及积雪水文研究的初学者.设置本课程的目的，是力图在较短的时间内使学习者对积雪水文的基本过程及其数学模拟方法有基本的了解。<br>目前，主要的课程设置为以下十讲。随着课程进展和课堂反映，内容会进行相应调整。</p>
-<h2 id="课程安排"><a href="#课程安排" class="headerlink" title="课程安排"></a>课程安排</h2><ul>
-<li>第一讲 程序语言及相关工具简单介绍  (closed)</li>
-<li>第二讲 python与fortran混合编程   (closed)</li>
-<li>第三讲 积雪水文基本过程概述       (closed)</li>
-<li>第四讲 积雪状态变量及其观测       (upcoming, 2016-6-22)</li>
-<li>第五讲 热传导、热辐射与相变</li>
-<li>第六讲 积雪质能平衡</li>
-<li>第七讲 降雪、植被截留以及风吹雪重分布</li>
-<li>第八讲 融雪的坡面产流与河道汇流</li>
-<li>第九讲 使用寒区分布式水文模型模拟融雪径流</li>
-<li>第十讲 结合多源数据的融雪模拟：参数优化与数据同化</li>
-</ul>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/课程/">课程</a></li></ul>
-	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="example24a" data-title="" data-url="http://info.coldregion.com/2016/06/23/example24a/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"true"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
 
 
 
 
-
-
-
-
-
-  
-  
 </div>
       <footer id="footer">
   <div class="outer">
@@ -387,8 +290,8 @@
 		fancybox: true,
 		mathjax: true,
 		animate: true,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
