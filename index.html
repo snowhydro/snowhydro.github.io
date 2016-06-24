@@ -180,20 +180,6 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="积雪模型构建文档"><a href="#积雪模型构建文档" class="headerlink" title="积雪模型构建文档"></a>积雪模型构建文档</h1><h2 id="积雪质量平衡"><a href="#积雪质量平衡" class="headerlink" title="积雪质量平衡"></a>积雪质量平衡</h2><h3 id="各相质量平衡"><a href="#各相质量平衡" class="headerlink" title="各相质量平衡"></a>各相质量平衡</h3><p>$a**2+y=12$</p>
-<p><em>θ</em><sub><em>i</em></sub> + <em>θ</em><sub><em>v</em></sub> + <em>θ</em><sub><em>l</em></sub> = 1</p>
-<p>在一维尺度上,<br>$$\frac{\partial\rho_{t}}{\partial t}=\frac{\partial\rho_{v}}{\partial t}-\frac{\partial\rho_{l}}{\partial t}$$</p>
-<p>针对雪层中的每一相，质量平衡方程可以写为，</p>
-<p>对于冰：<br>$$\frac{\partial\rho_{i}\theta_{i}}{\partial t}+\dot{M_{iv}}+\dot{M_{il}}=0$$</p>
-<p>对于液态水：<br>$$\frac{\partial\rho_{l}\theta_{l}}{\partial t}<br>+\frac{\partial U_{l}}{\partial z}+\dot{M_{lv}}-\dot{M_{il}}=0$$</p>
-<p>这里<em>U</em><sub><em>l</em></sub> 是水流通量 (<em>k**g</em> ⋅ <em>m</em><sup>−2</sup> ⋅ <em>s</em>).<br><span><em>θ</em><sub><em>i</em></sub></span>是体积含冰量<br>(<em>m</em><sup>3</sup> ⋅ <em>m</em><sup>−3</sup>).</p>
-<p>对于水汽，<br>$$\frac{\partial\rho_{v}\theta_{v}}{\partial t}<br>+\dot{M_{lv}}-\dot{M_{iv}}=\frac{\partial (D_{eff}\frac{\partial\rho_{v}}{\partial z })}{\partial z}$$</p>
-<p>水汽温度可近似为雪层温度.</p>
-<h3 id="雪层中水流过程"><a href="#雪层中水流过程" class="headerlink" title="雪层中水流过程"></a>雪层中水流过程</h3><p>In the momentum equation, the inertial, convection and phase change and<br>pressure are small,so the equation become:<br>$$\rho_{l}\theta_{l}g=\frac{\theta_{l}^2\mu_{l}v_l}{K_l}$$<br> Where<br><em>μ</em><sub><em>l</em></sub> = 1.787 × 10<sup>(</sup> − 3)<em>N</em> ⋅ <em>s</em>/<em>m</em><sup>2</sup><br>is the dynamic viscosity of water at 0<sup>∘</sup>C.</p>
-<p>we can get the velocity vector :<br>$$v_l=-\frac{K_{l}\theta_{l}g}{\theta_{l}\mu_l}$$<br> then the mass water flux:<br>$$U_l=\rho_l\theta_{l}v_l=-\frac{K_l}{\mu_l}\rho_{l}^{2}g$$<br> where the <em>K</em><sub><em>l</em></sub> is hydraulic permeability,which can be<br>expressed in the terms of the effective liquid saturations.</p>
-<p>effective liquid saturation <em>s</em><sub><em>e</em></sub>:</p>
-<p>$$s_e=\frac{s-s_r}{1-s_r}$$</p>
-<p>where <em>s</em><sub><em>r</em></sub> is the irreducible water saturation,research<br>show the value of the irreducible water content<br><em>θ</em> = <em>s</em><sub><em>r</em></sub><em>ϕ</em> is from 0.0-0.4, Colbeck(1974b) suggested a<br>value of <em>s</em><sub><em>r</em></sub>=0.07, and <em>s</em><sub><em>r</em></sub>=0.04 in the<br>Jordan(1991).</p>
-<p>From the Jodran(1991),the <em>K</em><sub><em>l</em></sub> can be expressed as,<br><em>K</em><sub><em>l</em></sub> = <em>K</em><sub><em>m<strong>a</strong>x</em></sub><em>s</em><sub><em>e</em></sub><sup>3</sup><br><em>K</em><sub><em>m<strong>a</strong>x</em></sub> = 0.077<em>d</em><sup>2</sup><em>e</em><sup>−0.0078<em>ρ</em><sub><em>i</em></sub><em>θ</em><sub><em>i</em></sub></sup></p>
 
       
     </div>
